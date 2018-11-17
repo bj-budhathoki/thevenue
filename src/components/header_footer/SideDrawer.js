@@ -2,13 +2,13 @@ import React from "react";
 import styled from "styled-components";
 const Div = styled.div`
   background-color: #fff;
-  width: 15%;
+  width: 18%;
   height: 100%;
   position: absolute;
   right: 0;
   top: 0;
   z-index: 999;
-  box-shadow: 0 0 0.3rem 0.1rem #2f2f2f;
+  box-shadow: 0 0 0.5rem 0rem #2f2f2f;
   .close__Drawer__btn {
     color: #fff;
     font-size: 2rem;

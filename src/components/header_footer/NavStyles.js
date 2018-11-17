@@ -9,6 +9,7 @@ const NavStyles = styled.nav`
   width: 100%;
   position: fixed;
   color: #fff;
+  z-index: 9;
   .nav__logo {
     display: flex;
     flex-direction: column;
