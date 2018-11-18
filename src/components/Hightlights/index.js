@@ -95,6 +95,7 @@ class Highlights extends Component {
                 numquam, beatae similique quibusdam sit natus nihil obcaecati
                 suscipit atque possimus.
               </p>
+              <button value="Read More">Read more</button>
             </div>
           </Slide>
         </div>
