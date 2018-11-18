@@ -48,7 +48,7 @@ export class CountDown extends Component {
   render() {
     const { days, hours, minutes, seconds } = this.state;
     return (
-      <Slide left delay={2000}>
+      <Slide left delay={1000}>
         <TimeUntil>
           <p className="event_start">EVENT START IN</p>
           <div

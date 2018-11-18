@@ -30,6 +30,11 @@ const HeadBanner = styled.div`
       border: 2px solid transparent;
       border-image: linear-gradient(to left, #2e98bc 0%, #c66262 100%);
       border-image-slice: 10;
+      span {
+        background: linear-gradient(to right, #211eaa 0%, #d30606 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     }
   }
 `;
@@ -38,7 +43,9 @@ const Featured = () => {
     <HeadBanner height={`${window.innerHeight}px`}>
       <Carousel />
       <div className="artist__name">
-        <div className="wrapper">Ariana Grande</div>
+        <div className="wrapper">
+          <span>Melina Rai</span>
+        </div>
       </div>
       <CountDown />
     </HeadBanner>
