@@ -45,6 +45,12 @@ const StyledWrapper = styled.div`
       align-self: center;
     }
   }
+.cta_btn{
+background:#EE0;
+color:#ff0;
+font-size:2rem;
+font-family:Roboto;
+text-transform:uppercase
 `;
 class Highlights extends Component {
   state = {
@@ -95,7 +101,7 @@ class Highlights extends Component {
                 numquam, beatae similique quibusdam sit natus nihil obcaecati
                 suscipit atque possimus.
               </p>
-              <button value="Read More">Read more</button>
+              <button value="Read More" className="cta_btn">Read more</button>
             </div>
           </Slide>
         </div>
